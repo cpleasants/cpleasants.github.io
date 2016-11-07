@@ -2,15 +2,68 @@
 <html>
 <head>
 	<title>Billboard Top 100 Data Analysis</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700" rel="stylesheet">
 	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: 'Work Sans', sans-serif;
+			box-sizing: border-box;
+		}
+
 		.app {
 			width: 80%;
-			margin: auto;
+			/*margin: auto;*/
+		}
+
+		h1 {
+			text-align: center;
+			padding: 2em;
+		}
+
+		header {
+			background: #F5F5F1;
+			width: 100vw;
+			padding: 0 0 3em 0;
+			border-bottom: 2px solid #ccc;
 		}
 
 		.author-wrapper {
 			width: 70%;
 			border: 2px solid #ccc;
+			margin: auto;
+			background: #FFF;
+		}
+
+		.author-wrapper > img {
+			width: 12%;
+			min-width: 4em;
+		}
+
+		.author-wrapper * {
+			display: inline-block;
+		}
+
+		.name-date-wrapper * {
+			display: block;
+		}
+
+		.name-date-wrapper > p:first-child {
+			font-weight: bold;
+		}
+
+		.main-img-wrapper {
+			margin: 3em auto;
+			width: 50%;
+		}
+
+		.main-img-wrapper > img {
+			width: 85%;
+    	min-width: 13em;
+		}
+
+		main {
+			margin: 0 0 0 18%;
 		}
 	</style>
 </head>
@@ -20,12 +73,16 @@
 			<h1>Billboard Top 100 Data Analysis</h1>
 			<div class='author-wrapper'>
 				<img src="profile.jpg" alt="Christoper Pleasants">
-				<p>Christoper Pleasants, Emerging Data Scientist</p>
-				<p>Nov 6, 2016</p>
+				<div class="name-date-wrapper">
+					<p>Christoper Pleasants, Emerging Data Scientist</p>
+					<p>Nov 6, 2016</p>
+				</div>
 			</div>
 		</header>
 		<main>
-			<img src="billboard-logo.png" alt='Billboards old logo'>
+			<div class="main-img-wrapper">
+				<img src="billboard-logo.png" alt='Billboards old logo'>
+			</div>
 			<h2>Findings</h2>
 			<article>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
