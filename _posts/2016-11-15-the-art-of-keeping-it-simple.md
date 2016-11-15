@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Chris Pleasants, Data Sleuth, Launches Site"
+title: "The Art of Keeping it Simple"
 date: 2016-11-15
 ---
-
-# The Art of Keeping it Simple
 
 Sometimes making predictions is complicated - there can be endless numbers of factors that contribute to an outcome in sometimes counter-intuitive ways. You have to balance the need for a model complex enough to fit your data (reducing error due to "bias") and the need to ensure your model is simple enough to be generalizable to future scenarios (reducing "variance"). Other times...it's as simple as can be. 
 
