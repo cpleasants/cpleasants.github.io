@@ -12,4 +12,7 @@ For these models, I selected age, sex , class, number of siblings/spouses, and e
 ![image](https://s-media-cache-ak0.pinimg.com/originals/94/94/ea/9494ea7f6fe1d70e849637754e8d6b25.png)
 
 ### Ensemble Model
-Mostly out of curiousity, I wanted to see 
+Mostly out of curiousity, I wanted to see what would happen if I made a prediction based on *all* of the models, instead of only one at a time. I figured that each of these models probably predicts incorrectly in different ways since they are using different methods, so maybe the errors in one model could counteract the errrors in another. Sure enough, when I averaged the probabilities produced in each model, this average (or "ensemble") model out-performed all three! That's the purple curve above. It doesn't out-perform all of them at all levels, but overall it is better than each one alone. Pretty cool, huh?!
+
+### Moral of the Story
+To be completely honest, there's no moral yet! I am going to do some further exploration and see what else I can learn about this data. Wish me luck!
