@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Billboard Top 11"
+title: "Billboard Top 100"
 date: 2016-11-06
 ---
-![image](assets/billboard-logo.png)
+![image](/assets/billboard-logo.png)
 I recently worked on a project where I got to explore the Billboard Top 100 charts from the year 2000, and I wanted to share some of my more interesting findings.
 
 ### Track Names
