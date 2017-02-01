@@ -9,7 +9,7 @@ If you want to know a little about the data, check out my Tableau [here](https:/
 ### The model
 For these models, I selected age, sex , class, number of siblings/spouses, and embarkation port to predict survival. I'll spare you the details of each model, but I've included a Receiver Operating Characteristic curve of all the models in the image below. For now ignore the purple curve. As you can see, each model produces almost the same curve. This means that each model performs just as well as the others at any and all thresholds.
 
-![image](assets/four_roc_curves.png)
+![image](/assets/four_roc_curves.png)
 
 ### Ensemble Model
 Mostly out of curiosity, I wanted to see what would happen if I made a prediction based on *all* of the models, instead of only one at a time. I figured that each of these models probably predicts incorrectly in different ways since they are using different methods, so maybe the errors in one model could counteract the errors in another. Sure enough, when I averaged the probabilities produced in each model, this average (or "ensemble") model out-performed all three! That's the purple curve above. It doesn't out-perform all of them at all levels, but overall it is better than each one alone. Pretty cool, huh?!
